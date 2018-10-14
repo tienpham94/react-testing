@@ -21,5 +21,5 @@ test('<Counter />', () => {
 
   fireEvent.click(counterButton);
   expect(counterButton.textContent).toBe('2');
-  debug(); // Outputs dom as string
+  // debug(); // Outputs dom as string
 });
